@@ -154,11 +154,11 @@ My research interest includes dialogue systems, machine translation, natural lan
     It is not easy to make such a system come true. There are several fundamental problems to be solved: dialogue-oriented knowledge representation, knowledge-grounded policy learning, knowledge-grounded response generation. In order to approach this target, we have conducted some researches:<br>
     <ul>
         <li>
-            <em>Large-scale pre-trained response generation model</em>:  <br>
+            <em>Large-scale pre-trained response generation model</em><br>
             Based on the available large-scale open-domain conversation, we pre-trained a response generation model <a href="https://arxiv.org/pdf/2006.16779.pdf">PLATO-2</a> via curriculum learning. We have released our English models and source codes at <a href="https://github.com/PaddlePaddle/Knover/tree/master/plato-2">Github</a>. PLATO-2 was ranked top 1 at <a href="https://dstc9.dstc.community/tracks">DSTC 9</a> Track 1, Track2, and Track 3 shared tasks.
         </li>
         <li>
-            <em>Knowledge-grounded policy learning and response generation</em>: <br>
+            <em>Knowledge-grounded policy learning and response generation</em> <br>
             we leverage graphs to guide policy learning. Different kinds of graphs are used including knowledge graphs, conversation graphs constructed from query logs, event graphs constructed from stories. Several papers were published in <a href="http://ir.hit.edu.cn/~car/papers/AAAI2020-Xu-kgconv.pdf">AAAI 2020</a>, <a href="https://www.aclweb.org/anthology/2020.acl-main.166.pdf">ACL 2020</a>, <a href="https://www.ijcai.org/Proceedings/2020/0545.pdf">IJCAI 2020</a>.
         </li>
         <li>
@@ -181,16 +181,14 @@ My research interest includes dialogue systems, machine translation, natural lan
     </li>
     </ul>
 
-    <h2>&spades; <em>Natural Language Processing</em></h2>
-    <ul>
-    <li>
-        <em>Pre-trained Model ERNIE</em><br>
+    <h2>&spades; <em>Pre-trained Model: ERNIE</em></h2>
+    <ul> 
         Recently pre-trained models have achieved state-of-the-art results in various language understanding tasks. In order to extract the lexical, syntactic and semantic information from training corpora, we propose a continual pre-training framework named <a href="https://arxiv.org/pdf/1907.12412.pdf">ERNIE 2.0</a> which incrementally builds pre-training tasks and then learn pre-trained models on these constructed tasks via continual multi-task learning. Based on this framework, we construct several tasks and train the ERNIE 2.0 model to capture lexical, syntactic and semantic aspects of information in the training data. Experimental results demonstrate that ERNIE 2.0 outperforms BERT and XLNet on 16 tasks including English tasks on GLUE benchmarks and several similar tasks in Chinese. The <a href="https://github.com/PaddlePaddle/ERNIE">source codes and pre-trained models</a> have been released.
-    </li>
-    <li>
-        <em>Question Answering and Machine Reading Comprehension</em><br>
-        We developed Question Answering and Machine Reading Comprehension methods, which are used in <a href="https://www.baidu.com/">Baidu search engine</a>. Recently, we proposed <a href="https://arxiv.org/abs/2010.08191">RocketQA</a>, an optimized training approach to dense passage retrieval for open-domain question answering. RocketQA achieved the 1st rank at the leaderboard of MSMARCO Passage Ranking Task. We released a Chinese dataset namely <a href="https://arxiv.org/pdf/2004.11142">DuReader<SUB>robust</SUB></a> towards evaluating the robustness of machine reading comprehension models, and we hosted a shared task based on DuReader<SUB>robust</SUB> [<a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Robust-BASELINE">Data&Code</a>, <a href="https://aistudio.baidu.com/aistudio/competition/detail/28?isFromCcf=true">Leaderboard</a>].
-    </li>
+    </ul>
+    
+    <h2>&spades; <em>Question Answering and Machine Reading Comprehension</em></h2>
+    <ul> 
+       We developed Question Answering and Machine Reading Comprehension methods, which are used in <a href="https://www.baidu.com/">Baidu search engine</a>. Recently, we proposed <a href="https://arxiv.org/abs/2010.08191">RocketQA</a>, an optimized training approach to dense passage retrieval for open-domain question answering. RocketQA achieved the 1st rank at the leaderboard of MSMARCO Passage Ranking Task. We released a Chinese dataset namely <a href="https://arxiv.org/pdf/2004.11142">DuReader<SUB>robust</SUB></a> towards evaluating the robustness of machine reading comprehension models, and we hosted a shared task based on DuReader<SUB>robust</SUB> [<a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Robust-BASELINE">Data&Code</a>, <a href="https://aistudio.baidu.com/aistudio/competition/detail/28?isFromCcf=true">Leaderboard</a>].  
     </ul>
 
 
