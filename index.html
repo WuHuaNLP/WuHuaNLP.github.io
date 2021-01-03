@@ -6,7 +6,7 @@
 <title>Hua Wu</title>
 <script type="text/javascript"></script>
 <link rel="stylesheet" media="all" type="text/css"
-      href="style.css"> 
+      href="style.css">
 <meta name="description" content="Hua Wu">
 <!--[if lte IE 6]><link rel="stylesheet" media="screen" type="text/css" href="ie6.css"><![endif]-->
 <script type="text/javascript">
@@ -46,8 +46,10 @@ sub {
 </head>
 
 <body>
-<ol id="nav">
-    
+
+<div id="wrapper">
+    <ol id="nav">
+
     <li><a class="selected" href="./index.html" title="Home">Home</a></li>
     <li><a href="#news" title="News">News</a></li>
     <li><a href="#act" title="Activities">Activities</a></li>
@@ -58,9 +60,9 @@ sub {
 	<!-- <li><a href="#links" title="Friends">Friends</a></li> -->
 </ol>
 
-<div id="wrapper">
+<!-- <div id="wrapper"> -->
 
-<h1 id="fff"><a href="http://xubenben.github.io" title="Hua Wu">
+<h1 id="fff"><a href="http://wuhuanlp.github.io" title="Hua Wu">
 	Hua Wu </a></h1>
 
 <div id="content">
@@ -74,14 +76,14 @@ sub {
 <em>Email</em>: wu_hua@baidu.com<br/>
 <em>Address</em>: Baidu Technology Park Building No. 1, No. 10 Xibeiwang East Road, Haidian District, Beijing, 100093, China
 <br/>
-	
+
 <div id="clear"></div>
-	
-<!--<h1>Biography and Interest</h1>-->	
+
+<!--<h1>Biography and Interest</h1>-->
 <br/>
 I joined <a href="https://ir.baidu.com/">Baidu</a> in 2010. Now I am the technical leader of Baidu NLP department and knowledge graph department. Before that, I worked for Toshiba (China) R&D Center and <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/">Microsoft Research Asia</a> (MSRA). I obtained Ph.D. degree in pattern recognition and intelligent system from the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Science</a> in 2001.
 <br/><br/>
-	
+
 My research interest includes dialogue systems, machine translation, natural language processing and knowledge graph.
 <!-- <div id="person_intro">
 
@@ -95,7 +97,7 @@ My research interest includes dialogue systems, machine translation, natural lan
 <ul>
 	<li>
 		<img valign="top" src="images/new.gif" width="40" border="0">
-		I have successfully defended my Ph.D. dissertation and I will join Microsoft Research Asia in September, 2014. 
+		I have successfully defended my Ph.D. dissertation and I will join Microsoft Research Asia in September, 2014.
 		<div id="clear"></div>
 	</li>
 </ul> -->
@@ -108,7 +110,7 @@ My research interest includes dialogue systems, machine translation, natural lan
         <font color="red">We are hiring (both interns and employees)!</font> <em>Please drop me an email with your resume</em> if you are interested in working with us on NLP problems, including but not limited to Dialogue Systems, Machine Translation, Question Answering, Distributed Representation, Generation, Knowledge Graph. Experiences with machine (incl. but not limited to deep) learning for NLP are preferred.
     </li>
     <li>
-        We are organizing the Workshop on Simultaneous Translation (<a href="https://autosimtrans.github.io/">2021</a>, <a href="https://autosimtrans.github.io/2020/">2020</a>), where there is a shared task on Chinese-English and English-Spanish simultaneous translation. 
+        We are organizing the Workshop on Simultaneous Translation (<a href="https://autosimtrans.github.io/">2021</a>, <a href="https://autosimtrans.github.io/2020/">2020</a>), where there is a shared task on Chinese-English and English-Spanish simultaneous translation.
     </li>
     <li>
         Our <a href="https://arxiv.org/pdf/2006.16779.pdf">PLATO-2</a> model was ranked top 1 at DSTC9 tracks 1, 2 and 3.
@@ -183,13 +185,13 @@ My research interest includes dialogue systems, machine translation, natural lan
     </ul>
 
     <h2>&spades; <em>Pre-trained Model: ERNIE</em></h2>
-    <ul> 
+    <ul>
         Recently pre-trained models have achieved state-of-the-art results in various language understanding tasks. In order to extract the lexical, syntactic and semantic information from training corpora, we propose a continual pre-training framework named <a href="https://arxiv.org/pdf/1907.12412.pdf">ERNIE 2.0</a> which incrementally builds pre-training tasks and then learn pre-trained models on these constructed tasks via continual multi-task learning. Based on this framework, we construct several tasks and train the ERNIE 2.0 model to capture lexical, syntactic and semantic aspects of information in the training data. Experimental results demonstrate that ERNIE 2.0 outperforms BERT and XLNet on 16 tasks including English tasks on GLUE benchmarks and several similar tasks in Chinese. The <a href="https://github.com/PaddlePaddle/ERNIE">source codes and pre-trained models</a> have been released.
     </ul>
-    
+
     <h2>&spades; <em>Question Answering and Machine Reading Comprehension</em></h2>
-    <ul> 
-       We developed Question Answering and Machine Reading Comprehension methods, which are used in <a href="https://www.baidu.com/">Baidu search engine</a>. Recently, we proposed <a href="https://arxiv.org/abs/2010.08191">RocketQA</a>, an optimized training approach to dense passage retrieval for open-domain question answering. RocketQA achieved the 1st rank at the leaderboard of MSMARCO Passage Ranking Task. We released a Chinese dataset namely <a href="https://arxiv.org/pdf/2004.11142">DuReader<SUB>robust</SUB></a> towards evaluating the robustness of machine reading comprehension models, and we hosted a shared task based on DuReader<SUB>robust</SUB> [<a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Robust-BASELINE">Data&Code</a>, <a href="https://aistudio.baidu.com/aistudio/competition/detail/28?isFromCcf=true">Leaderboard</a>].  
+    <ul>
+       We developed Question Answering and Machine Reading Comprehension methods, which are used in <a href="https://www.baidu.com/">Baidu search engine</a>. Recently, we proposed <a href="https://arxiv.org/abs/2010.08191">RocketQA</a>, an optimized training approach to dense passage retrieval for open-domain question answering. RocketQA achieved the 1st rank at the leaderboard of MSMARCO Passage Ranking Task. We released a Chinese dataset namely <a href="https://arxiv.org/pdf/2004.11142">DuReader<SUB>robust</SUB></a> towards evaluating the robustness of machine reading comprehension models, and we hosted a shared task based on DuReader<SUB>robust</SUB> [<a href="https://github.com/PaddlePaddle/Research/tree/master/NLP/DuReader-Robust-BASELINE">Data&Code</a>, <a href="https://aistudio.baidu.com/aistudio/competition/detail/28?isFromCcf=true">Leaderboard</a>].
     </ul>
 
 
@@ -814,7 +816,7 @@ My research interest includes dialogue systems, machine translation, natural lan
     <br>
 
 
-    
+
     <!-- <h2>Workshops</h2> -->
 </ul>
 </div>
@@ -828,21 +830,21 @@ My research interest includes dialogue systems, machine translation, natural lan
 
     <ul>
 	<li>
-        <em> <a href="https://www.google.com/patents/US20130097178">Question and Answer Forum Techniques</a></em>, 
-        <a>US Patent 2013</a> 
+        <em> <a href="https://www.google.com/patents/US20130097178">Question and Answer Forum Techniques</a></em>,
+        <a>US Patent 2013</a>
         <br>
-		Young-In Song, <strong><u>Jing Liu</u></strong>, Chin-Yew Lin and Tetsuya Sakai <br>       
-		<a href="https://www.google.com/patents/US20130097178"> US20130097178 A1</a> 
+		Young-In Song, <strong><u>Jing Liu</u></strong>, Chin-Yew Lin and Tetsuya Sakai <br>
+		<a href="https://www.google.com/patents/US20130097178"> US20130097178 A1</a>
         <br>
         <div id="clear"></div>
     </li>
 	<br>
 	<li>
-        <em> <a href="http://www.google.com/patents/US20130262453">Estimating Thread Participant Expertise Using A Competition-Based Model</a></em>, 
-        <a>US Patent 2013</a> 
+        <em> <a href="http://www.google.com/patents/US20130262453">Estimating Thread Participant Expertise Using A Competition-Based Model</a></em>,
+        <a>US Patent 2013</a>
         <br>
-		Chin-Yew Lin, Young-In Song and <strong><u>Jing Liu</u></strong> <br>       
-		<a href="http://www.google.com/patents/US20130262453"> US20130262453 A1</a> 
+		Chin-Yew Lin, Young-In Song and <strong><u>Jing Liu</u></strong> <br>
+		<a href="http://www.google.com/patents/US20130262453"> US20130262453 A1</a>
         <br>
         <div id="clear"></div>
     </li>
@@ -870,7 +872,7 @@ My research interest includes dialogue systems, machine translation, natural lan
     <div id="clear"></div>
 </div>-->
 
-</div> 
+</div>
 
 <div id="design">Last updated <a>Dec 20 2020</a> (This template was originally designed by <a href="http://www.cs.cmu.edu/~muli/">Mu Li</a>.)</div>
 
